@@ -6,9 +6,10 @@ export interface AddProductFacadeInputDto {
   stock: number;
 }
 
-export interface CheckStockInputDto {
+export interface CheckStockFacadeInputDto {
   productId: string;
 }
-export interface CheckStockOutputDto {
+export interface CheckStockFacadeOutputDto {
+  productId: string;
   stock: number;
 }
